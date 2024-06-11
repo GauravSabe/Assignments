@@ -1,7 +1,7 @@
 ﻿Assignment_5
 
-
 Java Variables and Data  types
+
  1.What is statically typed and dynamically typed Programming      Language ?
 → Statically typed :-  if the memory of the variable is given during the compilation time itself then such types of programming languages are called as “Statically typed”.
 Eg :- C , C++ , Java , etc.
@@ -11,7 +11,8 @@ Eg :- Python , PHP , JavaScript , etc.
 
  2.What is the variable in java? 
 → DataType variable_name = value;
-* The variable_name is the name of a variable. We can initialise the variable by specifying an equal sign and a value (initialization i.e. assigning an initial value, is optional). However, the compiler never assigns a default value to an uninitialized local variable in Java.
+* The variable_name is the name of a variable. We can initialise the variable by specifying an equal sign and 
+a value (initialization i.e. assigning an initial value, is optional). However, the compiler never assigns a default value to an uninitialized local variable in Java.
 * It is used to store value.
 Ex :- int age = 20;
 Int → DataType
@@ -22,17 +23,10 @@ Age → variable_name
 int rate; 
 rate = 40;
 
-
-
-
-
-
-
-
-
-
  3.How To Assign a Value To Variable. 
-→The first time a variable is assigned a value, it is said to be initialised.                     The = symbol is known as the assignment operator. It is also possible to declare a variable and assign it a value in the same line, so instead of int i and then i = 9 you can write int i = 9 all in one go.
+→The first time a variable is assigned a value, it is said to be initialised.                     
+The = symbol is known as the assignment operator. It is also possible to declare a variable and assign it a value in the same line, 
+so instead of int i and then i = 9 you can write int i = 9 all in one go.
 
 
  4.What are Primitive data types in java?
@@ -60,9 +54,13 @@ Rule 2 − After the first character/letter, identifiers can have any combinatio
 Rule 3 − A keyword cannot be used as an identifier.
 Rule 4 − The identifiers are case-sensitive.
 Rule 5 - Whitespaces are not permitted.
+
 Examples of legal identifiers : rank, $name, _rate, __2_mark. 
 Examples of illegal identifiers : 102pqr, -name.
-These variables, identifiers etc. consume memory units. Before proceeding ahead, let us have a look at the memory unit concept too. Here, we will only focus on the relevant concept of memory.
+
+These variables, identifiers etc. consume memory units. 
+Before proceeding ahead, let us have a look at the memory unit concept too. 
+Here, we will only focus on the relevant concept of memory.
 
 
 
@@ -88,19 +86,19 @@ class Main
 {
 public static void main(String[] args) 
     {
-int a = 5, int b = 6;
+ int a = 5, int b = 6;
  int c = a++;//post increment
  int d = ++a;//pre increment
  int e = b—-;//post decrement
-int f = –b;// pre decrement
-System.out.println(c);
-System.out.println(d);
-System.out.println(e);
-System.out.println(f);
-                      }
+ int f = –b;// pre decrement
+ System.out.println(c);
+ System.out.println(d);
+ System.out.println(e);
+ System.out.println(f);
+    }
 }
 Outputs : 
-5
+ 5
  7
  6
  4
