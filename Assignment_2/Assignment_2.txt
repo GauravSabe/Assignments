@@ -29,7 +29,7 @@ Fundamentals of  Java
 → 1.An object is a real-world entity.
 2.An object is a runtime entity.
 3.The object is an entity which has state and behavior.
- 4.The object is an instance of a class.
+4.The object is an instance of a class.
 
 
 5. What is a class ?
@@ -37,8 +37,9 @@ Fundamentals of  Java
 
 
 6. Explain about the main() method in Java ?
-→ The main () is the starting point for JVM to start execution of a Java program. Without the main () method, JVM will not execute the program. The syntax of the main () method is: public: It is an access specifier. We should use a public keyword before the main () method so that JVM can identify the execution point of the program.
-  
+→ The main () is the starting point for JVM to start execution of a Java program. Without the main () method, JVM will not execute the program. 
+
+The syntax of the main () method is: public static void main(String []args)
 
 - public: An access specifier, that is. Before calling the main() method, we need to use the public keyword to let the JVM know where the programme is actually being executed. Before the main() method, if we use private, protected, and default, the JVM won't be able to see it.
 - static: You can make a method static by using the keyword static. We should call the main() method without creating an object. Static methods are the method which is invoked without creating the objects, so we do not need any object to call the main() method.
