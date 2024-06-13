@@ -1,0 +1,67 @@
+﻿Assignment_6
+
+
+Operators and Loops
+ 1.What are the Conditional Operators in Java ?
+→They are used when a condition comprises more than one boolean expression.   For instance, if we want to print a number only if it is greater than 2 and less than 5, then we will use conditional operators to combine the 2 expressions. 
+* We have 3 types of conditional operators : 
+1.  Logical-and (&&)
+2.  Logical-or (||)
+3. ternary operator (?:)
+
+
+ 2.What are the types of operators based on the number of          operands ?
+→Operators in Java can be categorized based on two criteria : 
+* Number of operands :– There are three types of operators based on the number of operands. 
+* An operator is called a unary, binary, or ternary operator based on the number of operands.
+        
+ 3.What is the use of Switch case in Java programming ?
+→Let’s say we have a variable. Now, we want to do multiple operations on it based upon what value it is storing. In such cases the switch statement comes into play.
+* The switch case in java is used to select one of many code blocks for execution. 
+
+
+ 4.What are the priority levels of arithmetic operation in Java ?
+→Java Arithmetic Operators follow the order of operations as we do normally in Mathematics, that order being 
+* Parentheses : ()
+* Exponents or Power
+* Multiplication : *
+* Division (from left to right) : /
+* Addition : +
+* Subtraction (from left to right) : -
+
+
+ 5.What are the conditional Statements and use of conditional statements in Java ?
+→Conditional statements in Java are used to make decisions based on certain conditions. 
+* The most common conditional statements in Java are the If-Else statement, the Switch statement, and the Ternary Operator. 
+* These statements allow the program to execute different blocks of code based on specific conditions.
+
+
+ 6.What is the syntax of if-else statement ?
+→if(condition)
+{
+                //Statements;
+}
+else
+{
+//Statements;
+}
+
+
+ 7.What are the 3 types of iterative statements in java ?
+→ Three types of loops are : 
+1. while loop :- Repeats a set of statements while a given condition is true.
+2. for loop :- Executes a set of statements a fixed number of times.
+3. do while loop :- Repeats a set of statements at least once and then continues to repeat as long as a given condition is true.
+ 8.Write the difference between for loop and do-while loop ? 
+→ 1.for loop :- Executes a set of statements a fixed number of times.
+* Syntax : for( initial - statement; condition; final - statement )
+     {
+//Statements;
+      }
+2.do while loop :- Repeats a set of statements at least once and then continues to repeat as long as a given condition is true.
+* Syntax : initial - statement;
+             do
+              {
+                //statements;
+                final - statement;
+       }while(condition);
