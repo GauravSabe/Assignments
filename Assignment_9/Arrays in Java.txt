@@ -1,0 +1,78 @@
+Assignment_9
+
+
+   Arrays in Java
+
+ 1.What do you mean by an array ?
+→It refers to index collection of fixed no of homogeneous data elements.
+Single variable holding multiple values which improves readability of the program.
+    
+
+ 2.How to create an array ?
+→Every array in java is an object hence we create using a new operator.
+
+For 1D array : 
+int a[ ] = {1 , 2 , 3 , 4 , 5};
+or
+int a[ ] = new  int a[5]  ;
+a[0] = 1;
+a[1] = 2;
+a[2] = 3;
+a[3] = 4;
+a[4] = 5;
+
+* For 2D array : 
+int a[ ][ ] = { {1 , 2} , {3 , 4} , {5 , 6} };
+or
+int a[ ][ ] = new int a[3][2]  ;
+a[0][0] = 1;
+a[0][1] = 2;
+a[1][0] = 3;
+a[1][1] = 4;
+a[2][0] = 5;
+a[2][1] = 6;
+
+* For jagged array : 
+int a[ ][ ] = { {0 , 1 , 2 } , {3 , 4} , {5 , 6 , 7 , 8} };
+or
+int a[ ][ ] = new int a[3][]  ;
+a[0][0] = 0;
+a[0][1] = 1;
+a[0][2] = 2;
+a[1][0] = 3;
+a[1][1] = 4;
+a[2][0] = 5;
+a[2][1] = 6;
+a[2][2] = 7;
+a[2][3] = 8;
+
+
+ 3.Can we change the size of an array at run time ?
+→You must decide the size of the array when it is constructed. 
+* You can't change the size of the array after it's constructed.
+*  However, you can change the number of elements in an ArrayList whenever you want.
+
+
+ 4.Can you declare an array without assigning the size of an 
+    array ?
+→We can declare an array without size but before using it needs to be initialized.
+
+
+ 5.What is the default value of an array ? 
+→Array elements are initialised to 0 if they are a numeric type ( int or double ) , 
+false if they are of type boolean , 
+or null if they are an object type like String .
+
+
+ 6.What is a 1D array with an example ?
+→A single dimensional array in Java is an array that holds a sequence of elements, all of the same type, accessed through an index. 
+* For instance, if we create an array to store integer data type values, all elements of the array must be integers, and they are accessed using their index positions.
+* Example : 
+int a[ ] = {1 , 2 , 3 , 4 , 5};
+//or
+int a[ ] = new  int a[5]  ;
+a[0] = 1;
+a[1] = 2;
+a[2] = 3;
+a[3] = 4;
+a[4] = 5;
