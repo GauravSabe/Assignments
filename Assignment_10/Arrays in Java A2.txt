@@ -1,0 +1,64 @@
+﻿Assignment_10
+              Arrays in Java
+1.What is the default value of Array for different data types ? 
+ → int , double = 0
+* boolean = false 
+* String = null
+
+
+2.Can you pass the negative number in Array size.
+→Array dimensions cannot have a negative size.
+
+
+3.Where does Array stored in JVM memory ?
+→The reference types in Java are stored in heap area. Since arrays are reference types (we can create them using the new keyword) these are also stored in heap area.
+
+
+4.What are the disadvantages of Array ?
+→Fixed-size : The size of an array is fixed. Once the size is declared, it cannot be changed. ...
+* Lack of flexibility :  Arrays are not very flexible as they have a fixed size. ...
+* Overhead :  When working with arrays, an overhead is involved in terms of time and memory.
+
+
+5.What is an Anonymous Array in Java ? Give an example ?
+→An array in Java without any name is known as an anonymous array.
+* It is an array just for creating and using instantly.
+*  Using an anonymous array, we can pass an array with user values without the referenced variable
+Example : 
+class calc1
+{
+public int add1(int nums[])
+{
+int result = 0;
+for(int n:nums)
+{
+    result = result + n;
+}
+return result;
+}  
+}
+public class Anonymous_Array {
+    public static void main(String[] args) {
+    
+    calc1 obj1 = new calc1(); 
+    int nums[] = {1,2,3,4,5,6,7,8,9}; 
+    int sum1 = obj1.add1(nums);  //Anonymous_Array 
+    System.out.println(sum1); 
+    }
+}
+// output : 45
+6.What are the different ways to traverse an Array in java ?
+→To traverse through an array you can use a loop. For loop or while loop or do while loop. To traverse through an array and keep track of the highest value you can maintain a variable and update it after each iteration if a value larger than that is encountered.
+
+
+7.What is the difference between length and length() method Give an Examples ?
+→length
+- It is a property of the Array type class.
+* length()
+- It is a method of String class.
+Example :
+int[] a= {10,20,30};
+System.out.println(a.length); //3
+String[] names={"sachin","saurav","dhoni","yuvi"};
+System.out.println(names.length); //4
+System.out.println(names[0].length()); //6
