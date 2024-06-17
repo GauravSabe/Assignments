@@ -1,5 +1,7 @@
 ﻿Assignment_10
-              Arrays in Java
+              
+Arrays in Java
+
 1.What is the default value of Array for different data types ? 
  → int , double = 0
 * boolean = false 
@@ -47,8 +49,12 @@ public class Anonymous_Array {
     }
 }
 // output : 45
+
+
 6.What are the different ways to traverse an Array in java ?
-→To traverse through an array you can use a loop. For loop or while loop or do while loop. To traverse through an array and keep track of the highest value you can maintain a variable and update it after each iteration if a value larger than that is encountered.
+→To traverse through an array you can use a loop.
+For loop or while loop or do while loop. 
+To traverse through an array and keep track of the highest value you can maintain a variable and update it after each iteration if a value larger than that is encountered.
 
 
 7.What is the difference between length and length() method Give an Examples ?
